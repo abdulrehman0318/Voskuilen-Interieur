@@ -1,34 +1,43 @@
 body{
     margin: 0;
     padding: 0;
-
-header {
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .logo-svg {
-        height: 100px;
-    }
-    .left-menu ul {
+section {
+    background: linear-gradient(rgba( 0, 0, 0, 40%), rgba( 0, 0, 0, 40%)), url(/assets/imgs/sidekix-media-KRjDLU5j1K8-unsplash.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    header {
+        max-width: 1900px;
+        margin: auto;
+        nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        color: #fff;
+        .logo-svg {
+            height: 100px;
+        }
+        .left-menu ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         
         
-        li{
-            list-style: none;
+            li{
+                list-style: none;
             
-            a {
-                text-decoration: none;
-                color: black;
-                padding: 15px;
-                transition: .4s ease-in-out;
-                text-underline-offset: 1em;
-                &:hover {
-                    text-decoration: underline;
+                 a {
+                    text-decoration: none;
+                    color: #fff;
+                    padding: 15px;
+                    transition: .4s ease-in-out;
+                    text-underline-offset: 1em;
+                    &:hover {
+                        text-decoration: underline;
 
-                }
+                    }
             }
             
         }
@@ -36,6 +45,7 @@ header {
     }
     
  }
+}
 }
 .container {
     max-width: 1400px;
