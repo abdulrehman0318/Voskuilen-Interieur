@@ -8,23 +8,25 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
     header {
         max-width: 1900px;
         margin: auto;
+        padding-bottom: 40vh;
         nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: #fff;
-        .logo-svg {
-            height: 100px;
-        }
-        .left-menu ul {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            color: #fff;
+            .logo-svg {
+                height: 100px;
+            }
+            .left-menu ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
         
-        
+                
             li{
                 list-style: none;
             
@@ -37,15 +39,39 @@ section {
                     &:hover {
                         text-decoration: underline;
 
+                        }
                     }
-            }
             
-        }
+                }
         
+             }
+
+        }
     }
-    
- }
-}
+    .main-tw {
+        padding-bottom: 10px;
+        width: 40vmax;
+        margin-left: 12vmax;
+        p{
+            font-size: 35px;
+            color: #fff;
+        }
+        button{
+            color: #fff; 
+            padding: 25px 30px;
+            border: none; 
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            background-color: #000;
+            a{
+                text-decoration: none;
+                color: #fff;
+
+            }
+        }
+    }
+
 }
 .container {
     max-width: 1400px;

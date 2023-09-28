@@ -14,6 +14,7 @@ body section {
 body section header {
   max-width: 1900px;
   margin: auto;
+  padding-bottom: 40vh;
 }
 body section header nav {
   display: -webkit-box;
@@ -54,6 +55,28 @@ body section header nav .left-menu ul li a {
 }
 body section header nav .left-menu ul li a:hover {
   text-decoration: underline;
+}
+body section .main-tw {
+  padding-bottom: 10px;
+  width: 40vmax;
+  margin-left: 12vmax;
+}
+body section .main-tw p {
+  font-size: 35px;
+  color: #fff;
+}
+body section .main-tw button {
+  color: #fff;
+  padding: 25px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #000;
+}
+body section .main-tw button a {
+  text-decoration: none;
+  color: #fff;
 }
 body .container {
   max-width: 1400px;
