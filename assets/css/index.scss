@@ -273,6 +273,7 @@ body{
     }
 }
 .fif-sec {
+    padding-bottom: 150px;
     .text-fif {
         margin-left: 550px;
         width: 450px;
@@ -320,7 +321,8 @@ body{
         justify-content: space-between;
         align-items: center;
         .sec-text{
-            padding-left: 25%;
+            padding-left: 10%;
+            width: 600px;
             .btn-4{
                 color: #fff; 
                 padding: 20px 30px;
@@ -336,14 +338,54 @@ body{
                 }
             }
         }
+        .se-img {
+            background: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2600&q=80');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 500px;
+            width: 1100px;
+        }
     }
-    .se-img {
-        background: url('https://images.unsplash.com/photo-1693711941978-b7dadd0f002b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2512&q=80');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100%;
-        width: 100%;
+
+}
+div {
+    hr {
+        padding: 0;
+        margin: 0;
+    }
+}
+.last-sec {
+    background-color: #000;
+    padding: 100px 100px;
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3 {
+            color: #fff;
+        }
+        .input-sede{
+            input {
+            width: 650px;
+            height: 50px;
+            padding-left: 15px;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            background-color: #515151; 
+            color: #fff;   
+            border: none;
+        }
+            button{
+                width: 150px;
+                height: 51px;
+                border: none;
+                color: #fff;
+                border-bottom-right-radius: 10px;
+                border-top-right-radius: 10px;
+                background-color: #515151;
+            }
+        }
     }
 }
 .container {
