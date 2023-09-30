@@ -289,6 +289,79 @@ body .for-sec .swiper .swiper-wrapper .swiper-slide .slide-3 {
   background-size: cover;
   text-align: center;
 }
+body .fif-sec .text-fif {
+  margin-left: 550px;
+  width: 450px;
+  padding-bottom: 100px;
+}
+body .fif-sec .text-fif h3 {
+  font-size: 24px;
+  font-weight: 100;
+}
+body .fif-sec .text-fif .btn-3 {
+  color: #fff;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #000;
+}
+body .fif-sec .text-fif .btn-3 a {
+  text-decoration: none;
+  color: #fff;
+}
+body .fif-sec .swiper {
+  width: 100%;
+  height: 100%;
+}
+body .fif-sec .swiper .swiper-wrapper .swiper-slide {
+  font-size: 18px;
+  background: #fff;
+}
+body .fif-sec .swiper .swiper-wrapper .swiper-slide img {
+  width: 520px;
+  height: 300px;
+}
+body .six-sec {
+  background-color: #000;
+  color: #fff;
+}
+body .six-sec .six-sec-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .six-sec .six-sec-flex .sec-text {
+  padding-left: 25%;
+}
+body .six-sec .six-sec-flex .sec-text .btn-4 {
+  color: #fff;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+body .six-sec .six-sec-flex .sec-text .btn-4 a {
+  text-decoration: none;
+  color: #000000;
+}
+body .six-sec .se-img {
+  background: url("https://images.unsplash.com/photo-1693711941978-b7dadd0f002b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2512&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
 body .container {
   max-width: 1600px;
   margin: auto;
