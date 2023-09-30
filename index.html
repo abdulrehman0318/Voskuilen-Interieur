@@ -4,6 +4,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/index.css">
     <title>VOSKUILEN INTERIEUR</title>
@@ -87,8 +93,98 @@
       </div>
     </div>
   </section>
+  <section class=" for-sec">
+    <div class="bg-div">
+      <div class="text container">
+      <h3>Bij Voskuilen Inerteur doen we het allemaal. Ons team staat altijd klaar om alle klussen tot en goed einde te bregen.</h3>
+      <p>BENIEUWD HOE WE DIT VOOR ANDERE DEDEN?</p>
+    </div>
+    </div>
+    <div class="container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide-1">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-2">
+              <div class="in-img">
+              <h2> COOLBLUE </h2>
+              <button class="btn-3">BIKIJK DIT PROJECT </button>
+            </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-3">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-1">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-2">
+              <div class="in-img">
+                <h2> COOLBLUE </h2>
+                <button class="btn-3">BIKIJK DIT PROJECT </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-3">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-1">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-2">
+              <div class="in-img">
+                <h2> COOLBLUE </h2>
+                <button class="btn-3">BIKIJK DIT PROJECT </button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-3">
+            </div>
+          </div>
+            
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </section>
     <!-- Optional JavaScript -->
     <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop: true,
+    freeMode: true,
+    breakpoints: {
+        400: {
+           slidesPerView: 1,
+        },
+        500: {
+            slidesPerView: 2,
+        },
+        860: {
+            slidesPerView: 3,
+        },
+    }
+  });
+    </script>
 
   </body>
 </html>
