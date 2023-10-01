@@ -388,6 +388,69 @@ div {
         }
     }
 }
+footer {
+    background-color: #000;
+    .foot-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        padding: 100px 100px;
+        .loogo {
+            img {
+                height: 100px;
+            }
+            div {
+                h3 {
+                    font-size: 24px;
+                    font-weight: 100;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .last {
+        max-width: 1700px;
+        margin: auto;
+    
+    .footer-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div {
+            p {
+                color: #fff;
+            }
+        }
+        .footer-social {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+            font-size: 22px;
+            gap: 20px;
+        }
+        .footer-sub-menu {
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+}
 .container {
     max-width: 1600px;
     margin: auto;

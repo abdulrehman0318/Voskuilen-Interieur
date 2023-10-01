@@ -407,6 +407,83 @@ body .last-sec div .input-sede button {
   border-top-right-radius: 10px;
   background-color: #515151;
 }
+body footer {
+  background-color: #000;
+}
+body footer .foot-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  padding: 100px 100px;
+}
+body footer .foot-flex .loogo img {
+  height: 100px;
+}
+body footer .foot-flex .loogo div h3 {
+  font-size: 24px;
+  font-weight: 100;
+}
+body footer .foot-flex .loogo div p {
+  font-size: 18px;
+}
+body footer .last {
+  max-width: 1700px;
+  margin: auto;
+}
+body footer .last .footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body footer .last .footer-menu div p {
+  color: #fff;
+}
+body footer .last .footer-menu .footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: 22px;
+  gap: 20px;
+}
+body footer .last .footer-menu .footer-sub-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body footer .last .footer-menu .footer-sub-menu ul li {
+  list-style: none;
+}
+body footer .last .footer-menu .footer-sub-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
 body .container {
   max-width: 1600px;
   margin: auto;
