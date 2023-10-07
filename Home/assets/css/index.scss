@@ -11,7 +11,7 @@ body{
     background-size: cover;
 
     header {
-        max-width: 1900px;
+        max-width: 1500px;
         margin: auto;
         padding-bottom: 40vh;
         nav {
@@ -77,7 +77,7 @@ body{
 .s-sec{
     padding-bottom: 100px;
     .over{
-        width: 20vmax;
+        width: 25vmax;
         padding: 100px 0;
         h3{
             font-size: 24px;
@@ -108,10 +108,10 @@ body{
         align-items: center;
         gap: 40px;
         .f-img {
-            width: 800px;
+            width: 650px;
             overflow: hidden;
             .first-img{
-                height: 800px;
+                height: 650px;
                 width: 100%;
             }
             .btn-1{
@@ -130,10 +130,10 @@ body{
             }
         }
         .s-img {
-            width: 800px;
+            width: 650px;
             overflow: hidden;
             .sec-img{
-                height: 800px;
+                height: 650px;
                 width: 100%;
             }
             .btn-2{
@@ -167,12 +167,12 @@ body{
         justify-content: center;
         align-items: center;
         gap: 20px;
-        max-width: 1900px;
+        max-width: 1600px;
         div {
             flex: 1;
             img {
-                width: 500px;
-                height: 600px;
+                width: 400px;
+                height: 350px;
             }
             button {
                 background-color: #fff;
@@ -275,12 +275,13 @@ body{
 .fif-sec {
     padding-bottom: 150px;
     .text-fif {
-        margin-left: 550px;
-        width: 450px;
         padding-bottom: 100px;
         h3 {
             font-size: 24px;
             font-weight: 100;
+        }
+        p {
+            width: 450px;
         }
         .btn-3{
             color: #fff; 
@@ -300,6 +301,8 @@ body{
     .swiper {
         width: 100%;
         height: 100%;
+        max-width: 1600px;
+        margin: auto;
       .swiper-wrapper{
   
             .swiper-slide {
@@ -412,7 +415,7 @@ footer {
         }
     }
     .last {
-        max-width: 1700px;
+        max-width: 1600px;
         margin: auto;
     
     .footer-menu {
@@ -452,37 +455,198 @@ footer {
 }
 }
 .container {
-    max-width: 1600px;
+    max-width: 1350px;
     margin: auto;
 }
-@media (max-width: 1200px) {
-    .container {
-        max-width: 1200px;
-        margin: auto;
-    }
 }
-@media (max-width: 1000px) {
+
+@media (max-width: 1200px) {
+    body {
     .container {
         max-width: 1000px;
         margin: auto;
     }
+    .f-sec {
+        .main-tw{
+            p {
+                font-size: 18px;
+            }
+            button {
+                font-size: 10px;
+            }
+        }
+    } 
+    .s-sec {
+
+        .over {
+            h3 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 12px;
+            }
+            .btn {
+                font-size: 10px;
+            }
+        }
+        .flex-sec {
+            display: block;
+            .f-img {
+                width: 1000px;
+                padding-bottom: 100px;
+                .first-img {
+                    width: 1000px;
+                    height: 550px;
+                }
+                h3 {
+                    font-size: 18px;
+                }
+                p {
+                    font-size: 12px;
+                }
+                .btn-1 {
+                    font-size: 10px;
+                }
+
+            }
+            .s-img {
+                width: 1000px;
+                .sec-img {
+                    width: 1000px;
+                    height: 550px;
+                }
+                h3 {
+                    font-size: 18px;
+                }
+                p {
+                    font-size: 12px;
+                }
+                .btn-2 {
+                    font-size: 10px;
+                }
+
+            }
+        }
+    }
+    .t-sec {
+        .t-sec-flex {
+            display: block;
+            div {
+                width: 1000px;
+                padding-bottom: 100px;
+                img {
+                    width: 1000px;
+                    height: 550px;
+                }
+            }
+        }
+    }
+    .for-sec {
+        .bg-div {
+            .text {
+                h3 {
+                    font-size: 18px;
+                    line-height: 2;
+                    font-weight: bolder;
+                }
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+        
+        .container {
+            max-width: 1000px;
+        .mySwiper {
+            
+            .swiper-wrapper{
+                .swiper-slide {
+                    .slide-1 {
+                        height: 400px;
+                    }
+                    .slide-2 {
+                        
+                        height: 400px;
+                        .in-img {
+                            left: 50px;
+                            bottom: 50px;
+                        }
+                    }
+                    .slide-3 {
+                        height: 400px;
+                    }
+                }
+            }
+        }
+        }
+    }
+    .fif-sec {
+        .swiper {
+            max-width: 1000px;
+            margin: auto;
+            .swiper-wrapper {
+                .swiper-slide {
+                    img {
+                        width: 300px;
+                        height: 300px;
+                    }
+                }
+            }
+        }
+    }
+    .six-sec {
+        .six-sec-flex{
+        .sec-text {
+            padding-left: 5%;
+        }
+    }
+    }
+    .last-sec {
+        div {
+        .input-sede {
+            input {
+                width: 450px;    
+            }
+        }
+    }
+}
+footer {
+    .footer-menu {
+        max-width: 1000px;
+        margin: auto;
+    }
+}
+}
+}
+@media (max-width: 1000px) {
+    body {
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+    }
 }
 @media (max-width: 860px) {
-    .container {
-        max-width: 860px;
-        margin: auto;
+    body {
+        .container {
+            max-width: 860px;
+            margin: auto;
+        }
     }
 }
 @media (max-width: 640px) {
-    .container {
-        max-width: 640px;
-        margin: auto;
+    body {
+        .container {
+            max-width: 640px;
+            margin: auto;
+        }
     }
 }
 @media (max-width: 480px) {
-    .container {
-        max-width: 480px;
-        margin: auto;    
+    body {
+        .container {
+            max-width: 480px;
+            margin: auto;
+        }
     }
-}
 }
