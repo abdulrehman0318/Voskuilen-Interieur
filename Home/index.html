@@ -20,6 +20,7 @@
     <header>
       <nav >
         <div class="logo"><img class="logo-svg" src="assets/imgs/logo.svg" alt="logo"></div>
+        <div class="menu-toogle"><i class="fa-solid fa-bars"></i></div>
         <div class="left-menu">
           <ul>
             <li><a href="#">HOME</a></li>
@@ -212,7 +213,7 @@
   </section>
   <section class="six-sec">
     <div class="six-sec-flex">
-      <div class="sec-text">
+      <div class="sec-text container">
         <h2>VOSKULIEM INTERIURE</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed error itaque eum eius cupiditate accusantium vero reprehenderit eveniet, odio dicta dignissimos maxime ullam sunt expedita!</p>
         <button class="btn-4">
@@ -303,7 +304,7 @@
     loop: true,
     freeMode: true,
     breakpoints: {
-        400: {
+        300: {
            slidesPerView: 1,
         },
         500: {
@@ -324,7 +325,7 @@
     loop: true,
     freeMode: true,
     breakpoints: {
-        400: {
+        300: {
            slidesPerView: 1,
         },
         500: {
@@ -335,6 +336,11 @@
         },
     }
   });
+$(document).ready(function() {
+            $('.menu-toogle').click(function() {
+                $('.left-menu').toggleClass('active');
+            });
+        });
     </script>
 
   </body>
