@@ -200,12 +200,13 @@ body{
 .fif-sec {
     padding-bottom: 150px;
     .text-fif {
-        margin-left: 330px;
-        width: 450px;
         padding-bottom: 100px;
         h3 {
             font-size: 24px;
             font-weight: 100;
+        }
+        p {
+            width: 450px;
         }
         .btn-3{
             color: #fff; 
@@ -223,6 +224,7 @@ body{
         }
     }
     .swiper {
+        max-width: 1600px;
         width: 100%;
         height: 100%;
       .swiper-wrapper{
@@ -376,38 +378,485 @@ footer {
 
 }
 }
+}
 .container {
-    max-width: 1600px;
+    max-width: 1400px;
     margin: auto;
 }
 @media (max-width: 1200px) {
-    .container {
-        max-width: 1200px;
-        margin: auto;
+    body {
+        .sec-sec{
+            .first-flex {
+                div {
+                    width: 500px;
+                }
+                img {
+                    width: 500px;
+                    height: 450px;
+                }
+            }
+        .last-thal {
+            .first-flex {
+                div {
+                    width: 500px;
+                }
+                img {
+                    width: 500px;
+                    height: 450px;
+                }
+            }
+
+        }
+    }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+        .f-sec {
+            header {
+                max-width: 1000px;
+            }
+            .main-tw{
+                p {
+                    font-size: 18px;
+                }
+                button {
+                    font-size: 10px;
+                }
+            }
+        } 
+        .t-sec {
+            .t-sec-flex {
+                display: block;
+                div {
+                    width: 1000px;
+                    padding-bottom: 100px;
+                    img {
+                        width: 1000px;
+                        height: 550px;
+                    }
+                }
+            }
+        }
+        footer {
+            .footer-menu {
+                max-width: 1000px;
+                margin: auto;
+            }
+        }
+    .fif-sec {
+        .swiper {
+            max-width: 1000px;
+            margin: auto;
+            .swiper-wrapper {
+                .swiper-slide {
+                    img {
+                        width: 300px;
+                        height: 300px;
+                    }
+                }
+            }
+        }
+    }
+    .six-sec {
+        .six-sec-flex{
+        .sec-text {
+            padding-left: 5%;
+        }
+    }
+    }
+    .last-sec {
+        div {
+            .input-sede {
+                input {
+                    width: 450px;    
+                }
+            }
+        }
     }
 }
+}
+
 @media (max-width: 1000px) {
-    .container {
-        max-width: 1000px;
-        margin: auto;
+    body {
+        .container {
+            max-width: 860px;
+            margin: auto;
+        }
+        .sec-sec{
+        .last-thal {
+            .first-flex {
+                img {
+                    width: 400px;
+                    height: 350px;
+                }
+            }
+            div {
+                width: 400px;
+            }
+        }
+    }
+        .f-sec {
+            header {
+                max-width: 800px;
+            }
+            .main-tw{
+                p {
+                    font-size: 18px;
+                }
+                button {
+                    font-size: 10px;
+                }
+            }
+        } 
+        .t-sec {
+            .t-sec-flex {
+                display: block;
+                div {
+                    width: 800px;
+                    padding-bottom: 100px;
+                    img {
+                        width: 800px;
+                        height: 550px;
+                    }
+                }
+            }
+        }
+        .fif-sec {
+            .swiper {
+                max-width: 800px;
+                margin: auto;
+                .swiper-wrapper {
+                    .swiper-slide {
+                        img {
+                            width: 250px;
+                            height: 200px;
+                        }
+                    }
+                }
+            }
+        }
+        .six-sec {
+            .six-sec-flex{
+            .sec-text {
+                padding-left: 5%;
+            }
+        }
+        }
+        .last-sec {
+            div {
+            .input-sede {
+                input {
+                    width: 250px;    
+                }
+            }
+        }
+    }
+    footer {
+        display: none;
+    }
     }
 }
 @media (max-width: 860px) {
-    .container {
-        max-width: 860px;
-        margin: auto;
+    body {
+        .container {
+            max-width: 640px;
+            margin: auto;
+        }
+        .sec-sec {
+        .last-thal {
+            .first-flex {
+                display: block;
+                img {
+                    width: 640px;
+                    height: 550px;
+                }
+            }
+            div {
+                width: 640px;
+            }
+        }
+    }
+        .f-sec {
+            header {
+                max-width: 640px;
+                nav {
+                    
+                    .menu-toogle {
+                        display: block;
+                    }
+                    .left-menu.active {
+                        right: 0;
+                        display: block;
+                    }
+                    .left-menu {
+                        display: none;
+                        // display: block;
+                        background-color: #515151;
+                        position: absolute;
+                        right: -100%;
+                        transition: right 0.3s;
+                        ul {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+        .t-sec {
+            .text {
+                width: 100%;
+            }
+            .t-sec-flex {
+                display: block;
+                div {
+                    width: 640px;
+                    padding-bottom: 100px;
+                    img {
+                        width: 640px;
+                        height: 450px;
+                    }
+                }
+            }
+        }
+        .fif-sec {
+            .swiper {
+                max-width: 640px;
+                margin: auto;
+                .swiper-wrapper {
+                    .swiper-slide {
+                        img {
+                            width: 300px;
+                            height: 200px;
+                        }
+                    }
+                }
+            }
+        }
+        .six-sec {
+            .six-sec-flex{
+                padding-top: 50px;
+                display: block;
+                margin: auto;
+            .sec-text {
+                margin: auto;
+                padding-bottom: 50px;
+            }
+            .se-img {
+                width: 640px;
+                margin: auto;
+            }
+        }
+        }
+        .last-sec {
+            div {
+                display: block;
+                margin: auto;
+            .input-sede {
+                button {
+                    margin-left: -5px;
+                }
+                input {
+                    width: 350px;    
+                }
+            }
+        }
+    }
     }
 }
 @media (max-width: 640px) {
-    .container {
-        max-width: 640px;
-        margin: auto;
+    body {
+        .container {
+            max-width: 480px;
+            margin: auto;
+        }
+        .sec-sec {
+        .last-thal {
+            .first-flex {
+                img {
+                    width: 480px;
+                    height: 400px;
+                }
+            }
+            div {
+                width: 480px;
+            }
+        }
+    }
+        .f-sec {
+            header {
+                max-width: 480px;
+            }
+        }
+        .t-sec {
+            .text {
+                width: 100%;
+            }
+            .t-sec-flex {
+                display: block;
+                div {
+                    width: 480px;
+                    padding-bottom: 100px;
+                    img {
+                        width: 480px;
+                        height: 300px;
+                    }
+                }
+            }
+        }
+        .fif-sec {
+            .swiper {
+                max-width: 480px;
+                margin: auto;
+                .swiper-wrapper {
+                    .swiper-slide {
+                        img {
+                            width: 220px;
+                            height: 160px;
+                        }
+                    }
+                }
+            }
+        }
+        .six-sec {
+            .six-sec-flex{
+                padding-top: 50px;
+                display: block;
+                margin: auto;
+            .sec-text {
+                margin: auto;
+                padding-bottom: 50px;
+            }
+            .se-img {
+                width: 480px;
+                margin: auto;
+            }
+        }
+        }
+        .last-sec {
+            div {
+                display: block;
+                margin: auto;
+            .input-sede {
+                button {
+                    margin-left: -5px;
+                    width: 80px;
+                }
+                input {
+                    width: 150px;
+                    font-size: 12px;
+                    padding-left: 5px;
+                    padding-right: 10px;    
+                }
+                
+            }
+        }
+    }
     }
 }
 @media (max-width: 480px) {
-    .container {
-        max-width: 480px;
-        margin: auto;    
+    body {
+        .container {
+            max-width: 360px;
+            margin: auto;
+        }
+        .sec-sec{
+        .last-thal {
+            .first-flex {
+                img {
+                    width: 360px;
+                    height: 300px;
+                }
+            }
+            div {
+                width: 360px;
+            }
+        }
     }
-}
+        .f-sec {
+            header {
+                max-width: 360px;
+                nav {
+                    .logo-svg {
+                        height: 50px;
+                    }
+                }
+            }
+        }
+        .t-sec {
+            padding-top: 0;
+            .t-sec-flex {
+                div {
+                    width: 360px;
+                    img {
+                        width: 360px;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+        .for-sec {
+            .bg-div {
+                padding: 100px 0 200px 0;
+                .text {
+                    width: 360px;
+                }
+                }
+            }
+            .container {
+                max-width: 360px;
+            .mySwiper {
+                display: none;
+                .swiper-wrapper{
+                    .swiper-slide {
+                        .slide-1 {
+                            height: 250px;
+                        }
+                        .slide-2 {
+                            height: 250px;
+                        }
+                        .slide-3 {
+                            height: 250px;
+                        }
+                    }
+                }
+            }
+            }
+        .fif-sec {
+            .text-fif {
+                p {
+                    width: 360px;
+                }
+            }
+            .swiper {
+                max-width: 360px;
+                .swiper-wrapper {
+                    .swiper-slide {
+                        img {
+                            width: 360px;
+                            height: 260px;
+                        }
+                    }
+                }
+            }
+        }
+        .six-sec {
+            .six-sec-flex{
+            .se-img {
+                width: 360px;
+            }
+        }
+        }
+        .last-sec {
+            padding: 50px 20px;
+            div {
+            .input-sede {
+                input {
+                    width: 220px;   
+                }
+                
+            }
+        }
+    }
+    }
 }
