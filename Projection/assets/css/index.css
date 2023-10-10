@@ -87,6 +87,8 @@ body .sec-sec .long-gall-flex {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 100px;
   padding-bottom: 100px;
   padding-top: 100px;
@@ -136,36 +138,7 @@ body .sec-sec .long-gall-flex .thrd-img {
   background-repeat: no-repeat;
   background-size: cover;
 }
-body .sec-sec .short-gall-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-bottom: 100px;
-  gap: 100px;
-}
-body .sec-sec .short-gall-flex .frst-img {
-  width: 550px;
-  height: 750px;
-  background: url("https://images.unsplash.com/photo-1696416131112-b0604db96655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2454&q=80");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-body .sec-sec .short-gall-flex .second-img {
-  width: 550px;
-  height: 750px;
-  background: url("https://images.unsplash.com/photo-1696499152065-2d9498e8ba4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-body .sec-sec .short-gall-flex .thrd-img {
+body .sec-sec .long-gall-flex .forth-img {
   width: 550px;
   height: 750px;
   background: url("https://images.unsplash.com/photo-1696499152065-2d9498e8ba4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80");
@@ -290,7 +263,6 @@ body .fif-sec {
   padding-bottom: 150px;
 }
 body .fif-sec .text-fif {
-  margin-left: 330px;
   width: 450px;
   padding-bottom: 100px;
 }
@@ -482,36 +454,333 @@ body footer .last .footer-menu .footer-sub-menu ul li a {
   padding: 10px;
 }
 body .container {
-  max-width: 1600px;
+  max-width: 1400px;
   margin: auto;
 }
+
 @media (max-width: 1200px) {
-  body .container {
-    max-width: 1200px;
+  body .t-sec .t-sec-flex {
+    display: block;
+  }
+  body .t-sec .t-sec-flex div {
+    width: 1000px;
+    padding-bottom: 100px;
+  }
+  body .t-sec .t-sec-flex div img {
+    width: 1000px;
+    height: 550px;
+  }
+  body .fif-sec .swiper {
+    max-width: 1000px;
     margin: auto;
+  }
+  body .fif-sec .swiper .swiper-wrapper .swiper-slide img {
+    width: 300px;
+    height: 300px;
+  }
+  body .six-sec .six-sec-flex .sec-text {
+    padding-left: 5%;
+  }
+  body .last-sec div .input-sede input {
+    width: 450px;
+  }
+  body footer .footer-menu {
+    max-width: 1000px;
+    margin: auto;
+  }
+  body .container {
+    margin: auto;
+    max-width: 1000px;
   }
 }
 @media (max-width: 1000px) {
   body .container {
-    max-width: 1000px;
     margin: auto;
+    max-width: 860px;
+  }
+  body .f-sec header {
+    max-width: 800px;
+    padding-bottom: 100px;
+  }
+  body .f-sec .main-tw p {
+    font-size: 18px;
+  }
+  body .f-sec .main-tw button {
+    font-size: 10px;
+  }
+  body .sec-sec .text-faz {
+    margin-left: 40px;
+  }
+  body .sec-sec .last-thal .first-flex {
+    display: block;
+  }
+  body .t-sec .t-sec-flex {
+    display: block;
+  }
+  body .t-sec .t-sec-flex div {
+    width: 800px;
+    padding-bottom: 100px;
+  }
+  body .t-sec .t-sec-flex div img {
+    width: 800px;
+    height: 550px;
+  }
+  body .fif-sec .swiper {
+    max-width: 800px;
+    margin: auto;
+  }
+  body .fif-sec .swiper .swiper-wrapper .swiper-slide img {
+    width: 250px;
+    height: 200px;
+  }
+  body .six-sec .six-sec-flex .sec-text {
+    padding-left: 5%;
+  }
+  body .last-sec div .input-sede input {
+    width: 250px;
+  }
+  body footer {
+    display: none;
   }
 }
 @media (max-width: 860px) {
   body .container {
-    max-width: 860px;
     margin: auto;
+    max-width: 640px;
+  }
+  body .f-sec .first-text {
+    width: 550px;
+  }
+  body .f-sec header {
+    max-width: 640px;
+  }
+  body .f-sec header nav .menu-toogle {
+    display: block;
+  }
+  body .f-sec header nav .left-menu.active {
+    right: 0;
+    display: block;
+  }
+  body .f-sec header nav .left-menu {
+    display: none;
+    background-color: #515151;
+    position: absolute;
+    right: -100%;
+    -webkit-transition: right 0.3s;
+    transition: right 0.3s;
+  }
+  body .f-sec header nav .left-menu ul {
+    display: block;
+  }
+  body .sec-sec .text-faz {
+    margin-left: 110px;
+  }
+  body .sec-sec .last-thal .first-flex img {
+    width: 600px;
+    height: 500px;
+  }
+  body .sec-sec .last-thal .first-flex div {
+    width: 600px;
+  }
+  body .t-sec .text {
+    width: 100%;
+  }
+  body .t-sec .t-sec-flex {
+    display: block;
+  }
+  body .t-sec .t-sec-flex div {
+    width: 640px;
+    padding-bottom: 100px;
+  }
+  body .t-sec .t-sec-flex div img {
+    width: 640px;
+    height: 450px;
+  }
+  body .fif-sec .swiper {
+    max-width: 640px;
+    margin: auto;
+  }
+  body .fif-sec .swiper .swiper-wrapper .swiper-slide img {
+    width: 300px;
+    height: 200px;
+  }
+  body .six-sec .six-sec-flex {
+    padding-top: 50px;
+    display: block;
+    margin: auto;
+  }
+  body .six-sec .six-sec-flex .sec-text {
+    margin: auto;
+    padding-bottom: 50px;
+  }
+  body .six-sec .six-sec-flex .se-img {
+    width: 640px;
+    margin: auto;
+  }
+  body .last-sec div {
+    display: block;
+    margin: auto;
+  }
+  body .last-sec div .input-sede button {
+    margin-left: -5px;
+  }
+  body .last-sec div .input-sede input {
+    width: 350px;
   }
 }
 @media (max-width: 640px) {
   body .container {
-    max-width: 640px;
     margin: auto;
+    max-width: 480px;
+  }
+  body .sec-sec .last-thal .first-flex img {
+    width: 480px;
+    height: 400px;
+  }
+  body .sec-sec .last-thal .first-flex div {
+    width: 480px;
+  }
+  body .f-sec .first-text {
+    width: 400px;
+    margin-left: 14px;
+  }
+  body .f-sec .first-text h2 {
+    font-size: 18px;
+  }
+  body .f-sec header {
+    max-width: 480px;
+  }
+  body .t-sec .text {
+    width: 100%;
+  }
+  body .t-sec .t-sec-flex {
+    display: block;
+  }
+  body .t-sec .t-sec-flex div {
+    width: 480px;
+    padding-bottom: 100px;
+  }
+  body .t-sec .t-sec-flex div img {
+    width: 480px;
+    height: 300px;
+  }
+  body .fif-sec .swiper {
+    max-width: 480px;
+    margin: auto;
+  }
+  body .fif-sec .swiper .swiper-wrapper .swiper-slide img {
+    width: 220px;
+    height: 160px;
+  }
+  body .six-sec .six-sec-flex {
+    padding-top: 50px;
+    display: block;
+    margin: auto;
+  }
+  body .six-sec .six-sec-flex .sec-text {
+    margin: auto;
+    padding-bottom: 50px;
+    width: 480px;
+  }
+  body .six-sec .six-sec-flex .sec-text p {
+    width: 480px;
+  }
+  body .six-sec .six-sec-flex .se-img {
+    width: 480px;
+    margin: auto;
+  }
+  body .last-sec div {
+    display: block;
+    margin: auto;
+  }
+  body .last-sec div .input-sede button {
+    margin-left: -5px;
+    width: 80px;
+  }
+  body .last-sec div .input-sede input {
+    width: 150px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 10px;
   }
 }
 @media (max-width: 480px) {
+  body .sec-sec .main-element .main-el-text {
+    margin-left: 24px;
+    width: 340px;
+  }
+  body .sec-sec .text-faz {
+    margin-left: 14px;
+    width: 360px;
+  }
+  body .sec-sec .last-thal .first-flex img {
+    width: 360px;
+    height: 300px;
+  }
+  body .sec-sec .last-thal .first-flex div {
+    width: 360px;
+  }
+  body .sec-sec .long-gall-flex .frst-img {
+    width: 360px;
+  }
+  body .sec-sec .long-gall-flex .second-img {
+    width: 360px;
+  }
+  body .sec-sec .long-gall-flex .thrd-img {
+    width: 360px;
+  }
+  body .sec-sec .long-gall-flex .forth-img {
+    width: 360px;
+  }
+  body .f-sec .first-text {
+    width: 300px;
+  }
+  body .f-sec header {
+    max-width: 360px;
+  }
   body .container {
-    max-width: 480px;
     margin: auto;
+    max-width: 360px;
+  }
+  body .f-sec header {
+    max-width: 360px;
+  }
+  body .f-sec header nav .logo-svg {
+    height: 50px;
+  }
+  body .t-sec {
+    padding-top: 0;
+  }
+  body .t-sec .t-sec-flex div {
+    width: 360px;
+  }
+  body .t-sec .t-sec-flex div img {
+    width: 360px;
+    height: 200px;
+  }
+  body .fif-sec .text-fif p {
+    width: 360px;
+  }
+  body .fif-sec .swiper {
+    max-width: 360px;
+  }
+  body .fif-sec .swiper .swiper-wrapper .swiper-slide img {
+    width: 360px;
+    height: 260px;
+  }
+  body .six-sec .six-sec-flex .sec-text {
+    width: 360px;
+  }
+  body .six-sec .six-sec-flex .sec-text p {
+    width: 360px;
+  }
+  body .six-sec .six-sec-flex .se-img {
+    width: 360px;
+  }
+  body .last-sec {
+    padding: 50px 20px;
+  }
+  body .last-sec div .input-sede input {
+    width: 220px;
   }
 }
