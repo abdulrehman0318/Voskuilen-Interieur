@@ -732,23 +732,37 @@ body .container {
   body .f-sec header {
     max-width: 640px;
   }
-  body .f-sec header nav .menu-toogle {
+  body .f-sec header nav .logo .logo-svg {
+    height: 70px;
+  }
+  body .f-sec header nav #check:checked ~ .left-menu {
+    left: 0;
+  }
+  body .f-sec header nav .checkbtn {
     display: block;
   }
-  body .f-sec header nav .left-menu.active {
-    right: 0;
+  body .f-sec header nav .checkbtn .menu-toogle {
     display: block;
+    font-size: 28px;
   }
   body .f-sec header nav .left-menu {
-    display: none;
+    height: 100%;
+    width: 100%;
+    display: block;
     background-color: #515151;
     position: absolute;
-    right: -100%;
+    left: -100%;
+    top: 0px;
     -webkit-transition: right 0.3s;
     transition: right 0.3s;
   }
   body .f-sec header nav .left-menu ul {
+    margin-top: 50px;
     display: block;
+    text-align: center;
+  }
+  body .f-sec header nav .left-menu ul li {
+    padding: 10px;
   }
   body .s-sec .over {
     width: 100%;
