@@ -16,6 +16,9 @@ body{
                 display: none;
                 cursor: pointer;
             }
+            #check {
+                display: none;
+            }
             .logo-svg {
                 height: 100px;
             }
@@ -410,7 +413,7 @@ footer {
                             font-size: 28px;
                         }
                     }
-                    .left-menu {
+                    .left-menu { 
                         height: 100%;
                         width: 100%;
                         display: block;

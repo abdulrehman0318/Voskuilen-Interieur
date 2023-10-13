@@ -4,7 +4,6 @@ body {
   font-family: "AR One Sans", sans-serif;
 }
 body .f-sec {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("https://images.unsplash.com/photo-1520605728164-b6a5c6814203?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2681&q=80 4");
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.unsplash.com/photo-1520605728164-b6a5c6814203?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2681&q=80 4");
   height: 100vh;
   width: 100%;
@@ -18,34 +17,25 @@ body .f-sec header {
   padding-bottom: 40vh;
 }
 body .f-sec header nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   color: #fff;
 }
 body .f-sec header nav .menu-toogle {
   display: none;
   cursor: pointer;
 }
+body .f-sec header nav #check {
+  display: none;
+}
 body .f-sec header nav .logo-svg {
   height: 100px;
 }
 body .f-sec header nav .left-menu ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 body .f-sec header nav .left-menu ul li {
   list-style: none;
@@ -54,7 +44,6 @@ body .f-sec header nav .left-menu ul li a {
   text-decoration: none;
   color: #fff;
   padding: 15px;
-  -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
   text-underline-offset: 1em;
 }
@@ -112,15 +101,9 @@ body .s-sec .over .btn a {
   color: #fff;
 }
 body .s-sec .flex-sec {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   gap: 40px;
 }
 body .s-sec .flex-sec .f-img {
@@ -176,22 +159,14 @@ body .t-sec .text h3 {
   font-size: 24px;
 }
 body .t-sec .t-sec-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
   max-width: 1600px;
 }
 body .t-sec .t-sec-flex div {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
 }
 body .t-sec .t-sec-flex div img {
   width: 400px;
@@ -236,15 +211,9 @@ body .for-sec .swiper .swiper-wrapper .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #000000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 body .for-sec .swiper .swiper-wrapper .swiper-slide .slide-1 {
   background: url("https://images.unsplash.com/photo-1523705764474-ce1cad2c8537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2403&q=80");
@@ -338,15 +307,9 @@ body .six-sec {
   color: #fff;
 }
 body .six-sec .six-sec-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 body .six-sec .six-sec-flex .sec-text {
   padding-left: 10%;
@@ -382,15 +345,9 @@ body .last-sec {
   padding: 100px 100px;
 }
 body .last-sec div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 body .last-sec div h3 {
   color: #fff;
@@ -418,15 +375,9 @@ body footer {
   background-color: #000;
 }
 body footer .foot-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   color: #fff;
   padding: 100px 100px;
 }
@@ -445,43 +396,25 @@ body footer .last {
   margin: auto;
 }
 body footer .last .footer-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 body footer .last .footer-menu div p {
   color: #fff;
 }
 body footer .last .footer-menu .footer-social {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   color: #fff;
   font-size: 22px;
   gap: 20px;
 }
 body footer .last .footer-menu .footer-sub-menu ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 body footer .last .footer-menu .footer-sub-menu ul li {
   list-style: none;
@@ -753,7 +686,6 @@ body .container {
     position: absolute;
     left: -100%;
     top: 0px;
-    -webkit-transition: right 0.3s;
     transition: right 0.3s;
   }
   body .f-sec header nav .left-menu ul {
@@ -1100,4 +1032,4 @@ body .container {
   body .last-sec div .input-sede input {
     width: 220px;
   }
-}
+}/*# sourceMappingURL=index.css.map */
