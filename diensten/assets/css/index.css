@@ -4,7 +4,7 @@ body {
   font-family: "AR One Sans", sans-serif;
 }
 body .f-sec {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.unsplash.com/photo-1692525633901-6341ba12a696?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80");
+  background: url("https://images.unsplash.com/photo-1696505345203-a5e696e65e4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2677&q=80");
   height: 50vh;
   width: 100%;
   background-position: center;
@@ -12,15 +12,22 @@ body .f-sec {
   background-size: cover;
 }
 body .f-sec header {
-  max-width: 1900px;
+  max-width: 1500px;
   margin: auto;
-  padding-bottom: 200px;
+  padding-bottom: 20vh;
 }
 body .f-sec header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #fff;
+}
+body .f-sec header nav .menu-toogle {
+  display: none;
+  cursor: pointer;
+}
+body .f-sec header nav #check {
+  display: none;
 }
 body .f-sec header nav .logo-svg {
   height: 100px;
